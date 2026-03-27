@@ -1,0 +1,14 @@
+{
+  "name": "forecast-export-cli",
+  "version": "0.1.0",
+  "description": "CLI to export prediction market data to various formats",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
